@@ -8,13 +8,15 @@ create a new project and learn github knowledge.
 2. 然后多参考别人写的，具体怎么使用和文件内容；
 3. 多多实践，实践是检验你的标准。
 
-···
-int i = 0;
-int temp = 0;
-for(i = 0; i < 10; i++){
-  temp++;
-  if(temp > 5){
-    break;
+```
+{
+  int i = 0;
+  int temp = 0;
+  for(i = 0; i < 10; i++){
+    temp++;
+    if(temp > 5){
+      break;
+    }
   }
 }
-···
+```
